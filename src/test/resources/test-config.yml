@@ -1,0 +1,4 @@
+--- !com.codefellows.config.AppConfig
+initialColor: blue
+initialShape: rectangle
+initialFill: true

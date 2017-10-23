@@ -1,0 +1,4 @@
+--- !com.codefellows.config.AppConfig
+initialColor: black
+initialShape: circle
+initialFill: true

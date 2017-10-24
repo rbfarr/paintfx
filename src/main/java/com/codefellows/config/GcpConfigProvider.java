@@ -1,5 +1,9 @@
 package com.codefellows.config;
 
-public class GcpConfigProvider {
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
+public class GcpConfigProvider implements IConfigProvider {
+    public Config provide(Class className) {
+        throw new NotImplementedException();
+    }
 }

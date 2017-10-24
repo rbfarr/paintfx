@@ -9,6 +9,7 @@ import org.yaml.snakeyaml.Yaml;
 
 public class YamlConfigProvider implements IConfigProvider {
     private static final String DEFAULT_CONFIG_FILE = "src/main/resources/config.yml";
+
     private static final Logger log = LoggerFactory.getLogger(YamlConfigProvider.class);
 
     private final String configFile;

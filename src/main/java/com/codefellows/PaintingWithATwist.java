@@ -33,6 +33,8 @@ public class PaintingWithATwist extends Application {
         PaintPane paintPane = new PaintPane(appState);
         ControlPane controlPane = new ControlPane(appState, paintPane);
 
+        paintPane.restoreShapes();
+
         root.setRight(paintPane);
         root.setLeft(controlPane);
 

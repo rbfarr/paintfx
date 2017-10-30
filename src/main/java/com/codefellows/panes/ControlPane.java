@@ -59,6 +59,7 @@ public class ControlPane extends VBox {
         clearButton.setOnAction(e -> paintPane.clear());
 
         quitButton.setOnAction(e -> {
+            paintPane.saveShapes();
             Platform.exit();
             System.exit(0);
         });
